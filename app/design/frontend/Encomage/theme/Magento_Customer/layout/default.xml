@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+<!--        <referenceBlock name="header.links" remove="true"/>-->
+<!--        <move element="header.links" destionation="page_wrapper" after="-" />-->
+<!--        <move element="header.links" destination="page.wrapper" after="-"/>-->
+
+<!--            <container name="rocky.balboa1" htmlClass="rocky-balboa1" htmlTag="div" >-->
+<!--                <block class="Magento\Framework\View\Element\Html\Links" name="header.links">-->
+
+<!--                </block>-->
+<!--            </container>-->
+
+    </body>
+</page>
