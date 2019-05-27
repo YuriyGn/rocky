@@ -9,6 +9,7 @@
     <body>
         <move element="product.info.stock.sku" destination="content" before="product.info.main" />
         <referenceBlock name="product.info.overview" remove="true" />
+        <referenceBlock name="related.product.addto.compare" remove="true" />
 
         <referenceContainer name="product.info.main" >
             <container name="product.text" htmlTag="div" htmlClass="product-text" after="product.info.extrahint">
@@ -19,5 +20,9 @@
 <!--                <block class="Magento\Framework\View\Element\Template" name="detailed" template="Encomage_Catalog::product/list/detailed.phtml" />-->
 <!--            </container>-->
         </referenceContainer>
+        <referenceBlock name="related.product.addto">
+            <block class="Magento\Framework\View\Element\Template" name="addto.cart" as="addto"
+                   template="Encomage_Catalog::product/list/addto.phtml" />
+        </referenceBlock>
     </body>
 </page>
